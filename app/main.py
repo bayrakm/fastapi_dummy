@@ -11,7 +11,7 @@ app = FastAPI()
 
 @app.get("/")
 def connected():
-    return {"message": "you are connected"}
+    return {"message": "you are connected!!!!"}
 
 # to allow where and how people communicate with api
 origins = ["*"] # set to everyone for now
